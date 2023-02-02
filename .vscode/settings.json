@@ -1,5 +1,4 @@
 {
-    "marquee.widgets.npm-stats.packageNames": [
-        "ecommerce-app"
-    ]
+  "marquee.widgets.npm-stats.packageNames": ["ecommerce-app"],
+  "cSpell.words": ["fedb"]
 }
