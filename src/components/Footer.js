@@ -1,5 +1,11 @@
 import React from "react";
-import { BsSearch } from "react-icons/bs";
+import {
+  BsSearch,
+  BsLinkedin,
+  BsGithub,
+  BsYoutube,
+  BsInstagram,
+} from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Contact from "./../pages/Contact";
 
@@ -37,15 +43,55 @@ const Footer = () => {
           <div className='row'>
             <div className='col-4'>
               <h4 className='text-white mb-4'> Contact Us</h4>
-              <div></div>
+              <div>
+                <address className='text-white fs-6'>
+                  Hno : 26, Isuru Niwasa, <br /> Koonketiara,
+                  <br /> sooriyawewa
+                  <br />
+                  Post code : 82010
+                </address>
+                <a
+                  href='tel : +94 0760581244'
+                  className='mt-3 d-block mb-1 text-white'>
+                  +94 0760581244
+                </a>
+                <a
+                  href='mailto : akiladilan04@gmail.com'
+                  className='mt-2 d-block mb-0 text-white'>
+                  akiladilan04@gmail.com
+                </a>
+                <div className='social-icons d-flex align-items-center gap-30 mt-4'>
+                  <a href='' className='text-white'>
+                    <BsLinkedin className='fs-4' />
+                  </a>
+                  <a href='' className='text-white'>
+                    <BsInstagram className='fs-4' />
+                  </a>
+                  <a href='' className='text-white'>
+                    <BsGithub className='fs-4' />
+                  </a>
+                  <a href='' className='text-white'>
+                    <BsYoutube className='fs-4' />
+                  </a>
+                </div>
+              </div>
             </div>
             <div className='col-3'>
               <h4 className='text-white mb-4'>Information</h4>
-              <div></div>
+              <div className='footer-link d-flex flex-column'>
+                <Link className='text-white py-2 mb-1'> Privacy Policy</Link>
+                <Link className='text-white py-2 mb-1'> Refund Policy</Link>
+                <Link className='text-white py-2 mb-1'> Shipping Policy</Link>
+                <Link className='text-white py-2 mb-1'>Blogs</Link>
+              </div>
             </div>
             <div className='col-3'>
               <h4 className='text-white mb-4'>Account</h4>
-              <div></div>
+              <div className='footer-link d-flex flex-column'>
+                <Link className='text-white py-2 mb-1'> About Us</Link>
+                <Link className='text-white py-2 mb-1'> Faq</Link>
+                <Link className='text-white py-2 mb-1'> Contact Us</Link>
+              </div>
             </div>
             <div className='col-2'>
               <h4 className='text-white mb-4'> Quick Links</h4>
