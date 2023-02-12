@@ -8,7 +8,7 @@ const Home = () => {
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-6'>
-              <div className='main-banner position-relative p-3'>
+              <div className='main-banner position-relative'>
                 <img
                   src='images/main-banner-1.jpg'
                   className='img-fluid rounded-3'
@@ -22,7 +22,66 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-6'></div>
+            <div className='col-6'>
+              <div className='d-flex flex-wrap gap-10 justify-content-between align-items-center'>
+                <div className='small-banner position-relative'>
+                  <img
+                    src='images/catbanner-01.jpg'
+                    className='img-fluid rounded-3'
+                    alt='main banner'
+                  />
+                  <div className='small-banner-content position-absolute'>
+                    <h4>Best sale</h4>
+                    <h5> LAPTOPS MAX</h5>
+                    <p>
+                      From $1699.00 or <br /> $64.62/mo.
+                    </p>
+                  </div>
+                </div>
+                <div className='small-banner position-relative'>
+                  <img
+                    src='images/catbanner-02.jpg'
+                    className='img-fluid rounded-3'
+                    alt='main banner'
+                  />
+                  <div className='small-banner-content position-absolute'>
+                    <h4>New arrival</h4>
+                    <h5>Buy IPad Air</h5>
+                    <p>
+                      From $599.00 or <br /> $49.91/mo.
+                    </p>
+                  </div>
+                </div>
+                <div className='small-banner position-relative'>
+                  <img
+                    src='images/catbanner-03.jpg'
+                    className='img-fluid rounded-3'
+                    alt='main banner'
+                  />
+                  <div className='small-banner-content position-absolute'>
+                    <h4>15% off</h4>
+                    <h5>Smartwatch 7</h5>
+                    <p>
+                      Shop the latest band <br /> styles and colors
+                    </p>
+                  </div>
+                </div>
+                <div className='small-banner position-relative'>
+                  <img
+                    src='images/catbanner-04.jpg'
+                    className='img-fluid rounded-3'
+                    alt='main banner'
+                  />
+                  <div className='small-banner-content position-absolute'>
+                    <h4>Free engineering</h4>
+                    <h5>AirPods Max</h5>
+                    <p>
+                      High-fidelity & <br /> Ultra-low distortion
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
