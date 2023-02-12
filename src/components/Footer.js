@@ -1,13 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {
-  BsSearch,
-  BsLinkedin,
-  BsGithub,
-  BsYoutube,
-  BsInstagram,
-} from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Contact from "./../pages/Contact";
 
 const Footer = () => {
   return (
