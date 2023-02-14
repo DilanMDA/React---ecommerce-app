@@ -10,7 +10,6 @@ function Header() {
           <div className='row'>
             <div className='col-6'>
               <p className='text-white mb-0'>
-                {" "}
                 Free Shipping over 1100 & Free Returns
               </p>
             </div>
@@ -93,7 +92,7 @@ function Header() {
             <div className='col-12'>
               <div className='menu-bottom d-flex align-items-center gap-30'>
                 <div>
-                  <div class='dropdown'>
+                  <div className='dropdown'>
                     <button
                       className='btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center'
                       type='button'
