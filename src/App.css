@@ -10,6 +10,7 @@
   --color-fedb69: #fedb69;
   --color-232f3e: #232f3e;
   --color-bf4800: #bf4800;
+  --color-f5f5f7: #f5f5f7;
 }
 
 body {
@@ -187,3 +188,10 @@ footer .input-group-text {
 .small-banner {
   width: 49%;
 }
+
+/* home wrapper-2 */
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+/* home wrapper-2 ends */
+/* home page ends */
