@@ -311,4 +311,9 @@ footer .input-group-text {
   right: -20px;
   transition: 0.3s;
 }
+
+.wishlist-icon {
+  top: 2%;
+  right: 15px;
+}
 /* Product Card ends */
