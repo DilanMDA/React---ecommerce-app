@@ -8,7 +8,7 @@ const OutStore = () => {
   const [grid, setGrid] = useState(4);
   return (
     <>
-      <Meta title='Our Store' />
+      <Meta title={"Our Store"} />
       <BreadCrumb title='Our Store' />
       <div className='store-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
