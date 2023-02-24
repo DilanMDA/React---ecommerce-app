@@ -14,7 +14,7 @@ const BlogCard = () => {
           Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
           laying out print, graphic or web designs
         </p>
-        <Link to='' className='button'>
+        <Link to='/blog/:id' className='button'>
           Read more
         </Link>
       </div>
