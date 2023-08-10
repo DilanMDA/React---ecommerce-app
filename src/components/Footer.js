@@ -44,14 +44,10 @@ const Footer = () => {
                   <br />
                   Post code : 82010
                 </address>
-                <a
-                  href='tel : +94 0760581244'
-                  className='mt-3 d-block mb-1 text-white'>
+                <a href='tel : +94 0760581244' className='mt-3 d-block mb-1 text-white'>
                   +94 0760581244
                 </a>
-                <a
-                  href='mailto : akiladilan04@gmail.com'
-                  className='mt-2 d-block mb-0 text-white'>
+                <a href='mailto : akiladilan04@gmail.com' className='mt-2 d-block mb-0 text-white'>
                   akiladilan04@gmail.com
                 </a>
                 <div className='social-icons d-flex align-items-center gap-30 mt-4'>
@@ -73,10 +69,21 @@ const Footer = () => {
             <div className='col-3'>
               <h4 className='text-white mb-4'>Information</h4>
               <div className='footer-link d-flex flex-column'>
-                <Link className='text-white py-2 mb-1'> Privacy Policy</Link>
-                <Link className='text-white py-2 mb-1'> Refund Policy</Link>
-                <Link className='text-white py-2 mb-1'> Shipping Policy</Link>
-                <Link className='text-white py-2 mb-1'>Blogs</Link>
+                <Link to='/privacy-policy' className='text-white py-2 mb-1'>
+                  Privacy Policy
+                </Link>
+                <Link to='/refund-policy' className='text-white py-2 mb-1'>
+                  Refund Policy
+                </Link>
+                <Link to='/shipping-policy' className='text-white py-2 mb-1'>
+                  Shipping Policy
+                </Link>
+                <Link to='/term-conditions' className='text-white py-2 mb-1'>
+                  Terms & Conditions
+                </Link>
+                <Link className='text-white py-2 mb-1'>
+                  Blogs
+                </Link>
               </div>
             </div>
             <div className='col-3'>
